@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Amin Jabbari - Graphic Designer Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600|Open+Sans:400,600&display=swap" rel="stylesheet">
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #333;
+      }
+
+      header {
+        background-color: #fff;
+        padding: 20px;
+        box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+        position: fixed;
+        width: 100%;
+        z-index: 999;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+      }
+
+      nav ul {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      nav ul li a {
+        color: #333;
+        text-decoration: none;
+        font-size: 1.1rem;
+        margin-left: 40px;
+        transition: all 0.2s ease-in-out;
+      }
+
+      nav ul li a:hover {
+        color: #f4511e;
+      }
+
+      section {
+        padding: 80px 0;
+      }
+
+      section h2 {
+        font-size: 3rem;
+        margin-bottom: 40px;
+        text-align: center;
+      }
+
+      .portfolio-items {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: 40px;
+      }
+
+      .portfolio-item {
+        background-color: #f5f5f5;
+        padding: 20px;
+        border-radius: 5px;
+        transition: all 0.2s ease-in-out;
+      }
+
+      .portfolio-item:hover {
+        transform: translateY(-5px);
+        box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+      }
+
+      .portfolio-item img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+        margin-bottom: 20px;
+      }
+
+      .portfolio-item h3 {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+      }
+
+      .portfolio-item p {
+        font-size: 1.1rem;
+        margin-bottom: 20px;
+      }
+
+      .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #f4511e;
+        color: #fff;
+        font-size: 1.1rem;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: all 0.2s ease-in-out;
+      }
+
+      .btn:hover {
+        background-color: #333;
+      }
+
+      footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+
+      footer p {
+        font-size: 1.1rem;
